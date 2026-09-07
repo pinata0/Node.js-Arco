@@ -15,17 +15,6 @@
 - `README.md` 없음
 - `.env`, `.env.example` 없음
 
-현재 Git working tree에는 기존 문서 작업 변경사항이 존재한다.
-
-이 변경사항은 이번 작업과 무관하므로 절대 수정, 삭제, 복구, 이동하지 마.
-
-특히 다음 영역은 건드리지 마.
-
-```text
-docs/
-prompts/
-```
-
 기존 Git 변경사항을 stash, reset, checkout, restore 등의 명령으로 변경하지 마.
 
 ---

@@ -1,5 +1,10 @@
-# Frontend
+# Project Arco Frontend
 
-This directory is reserved for the Frontend application.
+The Project Arco frontend uses React, TypeScript, Vite, and pnpm.
 
-A Vite-based Frontend will be initialized here in the next step. It is currently a placeholder only.
+## Development
+
+```bash
+pnpm install
+pnpm dev
+```
