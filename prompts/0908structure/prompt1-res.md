@@ -13,10 +13,6 @@
 ### 발견된 충돌 또는 주의사항
 
 - `frontend/`, `backend/`, `.gitignore`, `README.md`는 모두 현재 없으므로, 제안된 구조와 파일명 충돌은 없습니다.
-- 작업 트리가 깨끗하지 않습니다. 기존 문서 변경을 보존해야 합니다.
-  - 수정: `docs/MVP_PRD.md`
-  - 삭제: `docs/QNA/event-data-collection-strategy.md`, `docs/QNA/local-llm-event-extraction.md`
-  - 미추적: `docs/QNA/how-eventcollect.md`, `docs/QNA/how-uselocalllm.md`, `prompts/`
 - 루트 `package.json`이 없으므로, 이후 루트 워크스페이스 방식(pnpm workspace 등)을 쓸지, FE/BE를 완전히 독립 패키지로 둘지 먼저 정하면 좋습니다.
 - Docker는 설치되어 있지만 데몬이 실행되지 않았으므로, Docker 기반 DB 선택 시 다음 단계에서 Docker Desktop/엔진 상태를 별도로 확인해야 합니다.
 
