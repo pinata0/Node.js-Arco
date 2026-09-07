@@ -1,5 +1,20 @@
-# Backend
+# Project Arco Backend
 
-This directory is reserved for the Backend API server.
+The Project Arco Backend uses Node.js, TypeScript, Express, and pnpm.
 
-A Node.js-based Backend will be initialized here in the next step and will use PostgreSQL. It is currently a placeholder only.
+## Development
+
+```bash
+pnpm install
+pnpm dev
+```
+
+## Verification
+
+```bash
+pnpm lint
+pnpm build
+pnpm start
+```
+
+Health check: `GET /health`
